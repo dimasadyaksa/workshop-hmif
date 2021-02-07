@@ -1,10 +1,11 @@
 #include <iostream>
 
-
 using std::cout;
+using std::endl;
 
+#define print(T) cout << T << endl  
 
 int main()
 {
-    cout << "Hello World\n";
+    print("Hello World");
 }
